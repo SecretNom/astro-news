@@ -1,11 +1,7 @@
 <script setup lang="ts">
-interface Event {
-    id: number;
-    nombre: string;
-    fecha: string;
-    descripcion: string;
-    url: string;
-}
+import type { Event } from './Events.vue';
+
+
 
 defineProps<{
     event: Event
